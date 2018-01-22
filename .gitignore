@@ -1,0 +1,20 @@
+user-register/.gradle
+user-register/build/
+user-register/*.iml
+user-register/*.ipr
+user-register/*.iws
+user-register/docker/
+
+# Ignore Gradle GUI config
+user-register/gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+user-register/!gradle-wrapper.jar
+
+# Cache of project
+user-register/.gradletasknamecache
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# user-register/gradle/wrapper/gradle-wrapper.properties
+
+
