@@ -1,0 +1,74 @@
+{
+	"id": "0bcfb15c-8330-f32b-f7f2-6260a520d701",
+	"name": "UserAuth",
+	"description": "",
+	"order": [
+		"63c06fb0-d664-ae78-4555-c7f7690dc665",
+		"001fcf74-031f-1c03-3dda-97861e0acf24"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1516408699901,
+	"owner": "157483",
+	"public": false,
+	"requests": [
+		{
+			"id": "001fcf74-031f-1c03-3dda-97861e0acf24",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/users",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1516660317332,
+			"name": "http://localhost:8080/users",
+			"description": "",
+			"collectionId": "0bcfb15c-8330-f32b-f7f2-6260a520d701",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\": \"Jorge\",\n\t\"email\": \"jorge.tavares@bla.com\",\n\t\"phone\": \"199999-9999\"\n\t\t\n}"
+		},
+		{
+			"id": "63c06fb0-d664-ae78-4555-c7f7690dc665",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/sub",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1516472805548,
+			"name": "http://localhost:8080/sub",
+			"description": "",
+			"collectionId": "0bcfb15c-8330-f32b-f7f2-6260a520d701",
+			"responses": [],
+			"rawModeData": "{\n\t\"protocol\": \"sqs\",\n\t\"endpoint\": \"http://localhost:4576/queue/user-created-queue\"\n}"
+		}
+	]
+}

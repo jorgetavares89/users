@@ -1,10 +1,4 @@
-user-register/.gradle
-user-register/build/
-user-register/*.iml
-user-register/*.ipr
-user-register/*.iws
-user-register/docker/
-
+.gradle
 # Ignore Gradle GUI config
 user-register/gradle-app.setting
 
