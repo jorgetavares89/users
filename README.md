@@ -27,7 +27,7 @@ It is **required** to generate the docker images of **all** projects, `user-gate
 
 Once you have generated the images of each application, you can get the containers up and running by using the `docker-compose` file on root path `(can be locale in users/docker-compose.yml)`.  Just run:  `$ docker-compose up` and the solution is coming up automatically. This command should be up the following architecture:
 
-<p align="center"><img src="https://"/></p>
+<p align="center"><img src="https://github.com/jorgetavares89/users/blob/master/users_arch.png"/></p>
 
 	Note:
 	In the root app path, has a Postman collections .json exported to test the APIs.
