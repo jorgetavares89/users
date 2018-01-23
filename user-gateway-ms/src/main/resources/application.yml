@@ -6,7 +6,7 @@ zuul:
       url: http://user-register-ms:8080
     user-token-auth:
       path: /auth/**
-      url: http://user-token-auth-ms:8080
+      url: http://user-auth-ms:8080
     test:
       path: /redirect/**
       url: http://google.com
